@@ -1,0 +1,88 @@
+.hide {
+    display: none;
+}
+
+.icon-star {
+    background-color: #283036;
+    padding: 0.813rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: $color-light-grey;
+}
+
+ul {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    background-color: $color-dark-blue;
+    border-radius: 50%;
+    color: $color-light-grey;
+
+    &:hover {
+        background-color: $color-orange;
+        color: $color-white;
+        transition: 0.3s;
+    }
+}
+
+button {
+    cursor: pointer;
+    width: 21.375rem;
+    height: 2.813rem;
+    border: none;
+    background-color: $color-orange;
+    border-radius: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    &:hover {
+        background-color: $color-white;
+        color: $color-orange;
+        transition: 0.2s ease;
+    }
+}
+
+.active {
+    background-color: hsl(217, 12%, 63%);
+    color: $color-white;
+}
+
+// =========== PART OF CONFIRMATION ========= \\
+
+.description {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.text-you-selected {
+    background-color: #283036;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: $color-orange;
+    width: 12.063rem;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+span {
+    color: $color-orange;
+}

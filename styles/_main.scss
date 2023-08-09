@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $color-very-dark-blue;
+}
+
+.container,
+.container-confirmation {
+    padding: 2rem;
+    width: 25.688rem;
+    height: 25.938rem;
+    background-color: #1a222d;
+    border-radius: 1.688rem;
+}
+
+.container-confirmation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
